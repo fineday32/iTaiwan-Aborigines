@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0123E00180E6F8F001B2652 /* wantToPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0123DFF180E6F8F001B2652 /* wantToPlayViewController.m */; };
+		E0571B3F180DB375008A08C1 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0571B3D180DB375008A08C1 /* 1.gif */; };
+		E0571B40180DB375008A08C1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0571B3E180DB375008A08C1 /* 1.png */; };
+		E06471C6180CDA8100F8C04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471C5180CDA8100F8C04C /* Foundation.framework */; };
+		E06471C8180CDA8200F8C04C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471C7180CDA8200F8C04C /* CoreGraphics.framework */; };
+		E06471CA180CDA8200F8C04C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471C9180CDA8200F8C04C /* UIKit.framework */; };
+		E06471D0180CDA8200F8C04C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06471CE180CDA8200F8C04C /* InfoPlist.strings */; };
+		E06471D2180CDA8200F8C04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E06471D1180CDA8200F8C04C /* main.m */; };
+		E06471D6180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06471D5180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.m */; };
+		E06471D9180CDA8200F8C04C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06471D7180CDA8200F8C04C /* Main.storyboard */; };
+		E06471DC180CDA8200F8C04C /* iTaiwan_AboriginesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06471DB180CDA8200F8C04C /* iTaiwan_AboriginesViewController.m */; };
+		E06471DE180CDA8200F8C04C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06471DD180CDA8200F8C04C /* Images.xcassets */; };
+		E06471E5180CDA8200F8C04C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471E4180CDA8200F8C04C /* XCTest.framework */; };
+		E06471E6180CDA8200F8C04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471C5180CDA8100F8C04C /* Foundation.framework */; };
+		E06471E7180CDA8200F8C04C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471C9180CDA8200F8C04C /* UIKit.framework */; };
+		E06471EF180CDA8200F8C04C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06471ED180CDA8200F8C04C /* InfoPlist.strings */; };
+		E06471F1180CDA8200F8C04C /* iTaiwan_AboriginesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E06471F0180CDA8200F8C04C /* iTaiwan_AboriginesTests.m */; };
+		E06471FB180CDA9F00F8C04C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06471FA180CDA9F00F8C04C /* FacebookSDK.framework */; };
+		E06471FE180CEA8900F8C04C /* introViewTest.png in Resources */ = {isa = PBXBuildFile; fileRef = E06471FD180CEA8900F8C04C /* introViewTest.png */; };
+		E0647201180D367800F8C04C /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0647200180D367800F8C04C /* mainViewController.m */; };
+		E0B0AB65180E8240002BF44E /* wantToEatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B0AB64180E8240002BF44E /* wantToEatViewController.m */; };
+		E0B0AB68180E84FB002BF44E /* wantToBeHipsterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B0AB67180E84FB002BF44E /* wantToBeHipsterViewController.m */; };
+		E0B0AB6B180E864C002BF44E /* nearestAboriginesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B0AB6A180E864C002BF44E /* nearestAboriginesViewController.m */; };
+		E0B0AB6F180E8C1A002BF44E /* mapImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B0AB6D180E8C1A002BF44E /* mapImage.png */; };
+		E0B0AB71180E8C51002BF44E /* cameraImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B0AB70180E8C51002BF44E /* cameraImage.png */; };
+		E0B0AB96180EAE1F002BF44E /* UIViewController+CWPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B0AB95180EAE1F002BF44E /* UIViewController+CWPopup.m */; };
+		E0B0AB99180EB083002BF44E /* rewardPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B0AB98180EB083002BF44E /* rewardPopupViewController.m */; };
+		E0B0AB9B180EEA78002BF44E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B0AB9A180EEA78002BF44E /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E06471E8180CDA8200F8C04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06471BA180CDA8100F8C04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06471C1180CDA8100F8C04C;
+			remoteInfo = "iTaiwan Aborigines";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0123DFE180E6F8F001B2652 /* wantToPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wantToPlayViewController.h; sourceTree = "<group>"; };
+		E0123DFF180E6F8F001B2652 /* wantToPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wantToPlayViewController.m; sourceTree = "<group>"; };
+		E0571B3D180DB375008A08C1 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		E0571B3E180DB375008A08C1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E06471C2180CDA8100F8C04C /* iTaiwan Aborigines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTaiwan Aborigines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06471C5180CDA8100F8C04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E06471C7180CDA8200F8C04C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E06471C9180CDA8200F8C04C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E06471CD180CDA8200F8C04C /* iTaiwan Aborigines-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTaiwan Aborigines-Info.plist"; sourceTree = "<group>"; };
+		E06471CF180CDA8200F8C04C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06471D1180CDA8200F8C04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E06471D3180CDA8200F8C04C /* iTaiwan Aborigines-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTaiwan Aborigines-Prefix.pch"; sourceTree = "<group>"; };
+		E06471D4180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTaiwan_AboriginesAppDelegate.h; sourceTree = "<group>"; };
+		E06471D5180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTaiwan_AboriginesAppDelegate.m; sourceTree = "<group>"; };
+		E06471D8180CDA8200F8C04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06471DA180CDA8200F8C04C /* iTaiwan_AboriginesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTaiwan_AboriginesViewController.h; sourceTree = "<group>"; };
+		E06471DB180CDA8200F8C04C /* iTaiwan_AboriginesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTaiwan_AboriginesViewController.m; sourceTree = "<group>"; };
+		E06471DD180CDA8200F8C04C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E06471E3180CDA8200F8C04C /* iTaiwan AboriginesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iTaiwan AboriginesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06471E4180CDA8200F8C04C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E06471EC180CDA8200F8C04C /* iTaiwan AboriginesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTaiwan AboriginesTests-Info.plist"; sourceTree = "<group>"; };
+		E06471EE180CDA8200F8C04C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06471F0180CDA8200F8C04C /* iTaiwan_AboriginesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTaiwan_AboriginesTests.m; sourceTree = "<group>"; };
+		E06471FA180CDA9F00F8C04C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		E06471FD180CEA8900F8C04C /* introViewTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introViewTest.png; sourceTree = "<group>"; };
+		E06471FF180D367800F8C04C /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		E0647200180D367800F8C04C /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		E0B0AB63180E8240002BF44E /* wantToEatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wantToEatViewController.h; sourceTree = "<group>"; };
+		E0B0AB64180E8240002BF44E /* wantToEatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wantToEatViewController.m; sourceTree = "<group>"; };
+		E0B0AB66180E84FB002BF44E /* wantToBeHipsterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wantToBeHipsterViewController.h; sourceTree = "<group>"; };
+		E0B0AB67180E84FB002BF44E /* wantToBeHipsterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wantToBeHipsterViewController.m; sourceTree = "<group>"; };
+		E0B0AB69180E864C002BF44E /* nearestAboriginesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nearestAboriginesViewController.h; sourceTree = "<group>"; };
+		E0B0AB6A180E864C002BF44E /* nearestAboriginesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nearestAboriginesViewController.m; sourceTree = "<group>"; };
+		E0B0AB6D180E8C1A002BF44E /* mapImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapImage.png; sourceTree = "<group>"; };
+		E0B0AB70180E8C51002BF44E /* cameraImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraImage.png; sourceTree = "<group>"; };
+		E0B0AB94180EAE1F002BF44E /* UIViewController+CWPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CWPopup.h"; sourceTree = "<group>"; };
+		E0B0AB95180EAE1F002BF44E /* UIViewController+CWPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CWPopup.m"; sourceTree = "<group>"; };
+		E0B0AB97180EB083002BF44E /* rewardPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rewardPopupViewController.h; sourceTree = "<group>"; };
+		E0B0AB98180EB083002BF44E /* rewardPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rewardPopupViewController.m; sourceTree = "<group>"; };
+		E0B0AB9A180EEA78002BF44E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06471BF180CDA8100F8C04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B0AB9B180EEA78002BF44E /* AssetsLibrary.framework in Frameworks */,
+				E06471C8180CDA8200F8C04C /* CoreGraphics.framework in Frameworks */,
+				E06471FB180CDA9F00F8C04C /* FacebookSDK.framework in Frameworks */,
+				E06471CA180CDA8200F8C04C /* UIKit.framework in Frameworks */,
+				E06471C6180CDA8100F8C04C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06471E0180CDA8200F8C04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06471E5180CDA8200F8C04C /* XCTest.framework in Frameworks */,
+				E06471E7180CDA8200F8C04C /* UIKit.framework in Frameworks */,
+				E06471E6180CDA8200F8C04C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E06471B9180CDA8100F8C04C = {
+			isa = PBXGroup;
+			children = (
+				E06471CB180CDA8200F8C04C /* iTaiwan Aborigines */,
+				E0B0AB93180EAE1F002BF44E /* CWPopup */,
+				E06471EA180CDA8200F8C04C /* iTaiwan AboriginesTests */,
+				E06471C4180CDA8100F8C04C /* Frameworks */,
+				E06471C3180CDA8100F8C04C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06471C3180CDA8100F8C04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06471C2180CDA8100F8C04C /* iTaiwan Aborigines.app */,
+				E06471E3180CDA8200F8C04C /* iTaiwan AboriginesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06471C4180CDA8100F8C04C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0B0AB9A180EEA78002BF44E /* AssetsLibrary.framework */,
+				E06471FA180CDA9F00F8C04C /* FacebookSDK.framework */,
+				E06471C5180CDA8100F8C04C /* Foundation.framework */,
+				E06471C7180CDA8200F8C04C /* CoreGraphics.framework */,
+				E06471C9180CDA8200F8C04C /* UIKit.framework */,
+				E06471E4180CDA8200F8C04C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06471CB180CDA8200F8C04C /* iTaiwan Aborigines */ = {
+			isa = PBXGroup;
+			children = (
+				E06471FC180CEA8900F8C04C /* Image */,
+				E06471D4180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.h */,
+				E06471D5180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.m */,
+				E06471D7180CDA8200F8C04C /* Main.storyboard */,
+				E0B0AB69180E864C002BF44E /* nearestAboriginesViewController.h */,
+				E0B0AB6A180E864C002BF44E /* nearestAboriginesViewController.m */,
+				E0123DFE180E6F8F001B2652 /* wantToPlayViewController.h */,
+				E0123DFF180E6F8F001B2652 /* wantToPlayViewController.m */,
+				E0B0AB63180E8240002BF44E /* wantToEatViewController.h */,
+				E0B0AB64180E8240002BF44E /* wantToEatViewController.m */,
+				E0B0AB66180E84FB002BF44E /* wantToBeHipsterViewController.h */,
+				E0B0AB67180E84FB002BF44E /* wantToBeHipsterViewController.m */,
+				E06471FF180D367800F8C04C /* mainViewController.h */,
+				E0647200180D367800F8C04C /* mainViewController.m */,
+				E0B0AB97180EB083002BF44E /* rewardPopupViewController.h */,
+				E0B0AB98180EB083002BF44E /* rewardPopupViewController.m */,
+				E06471DA180CDA8200F8C04C /* iTaiwan_AboriginesViewController.h */,
+				E06471DB180CDA8200F8C04C /* iTaiwan_AboriginesViewController.m */,
+				E06471DD180CDA8200F8C04C /* Images.xcassets */,
+				E06471CC180CDA8200F8C04C /* Supporting Files */,
+			);
+			path = "iTaiwan Aborigines";
+			sourceTree = "<group>";
+		};
+		E06471CC180CDA8200F8C04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06471CD180CDA8200F8C04C /* iTaiwan Aborigines-Info.plist */,
+				E06471CE180CDA8200F8C04C /* InfoPlist.strings */,
+				E06471D1180CDA8200F8C04C /* main.m */,
+				E06471D3180CDA8200F8C04C /* iTaiwan Aborigines-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E06471EA180CDA8200F8C04C /* iTaiwan AboriginesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06471F0180CDA8200F8C04C /* iTaiwan_AboriginesTests.m */,
+				E06471EB180CDA8200F8C04C /* Supporting Files */,
+			);
+			path = "iTaiwan AboriginesTests";
+			sourceTree = "<group>";
+		};
+		E06471EB180CDA8200F8C04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06471EC180CDA8200F8C04C /* iTaiwan AboriginesTests-Info.plist */,
+				E06471ED180CDA8200F8C04C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E06471FC180CEA8900F8C04C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E0B0AB70180E8C51002BF44E /* cameraImage.png */,
+				E0B0AB6D180E8C1A002BF44E /* mapImage.png */,
+				E0571B3D180DB375008A08C1 /* 1.gif */,
+				E0571B3E180DB375008A08C1 /* 1.png */,
+				E06471FD180CEA8900F8C04C /* introViewTest.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E0B0AB93180EAE1F002BF44E /* CWPopup */ = {
+			isa = PBXGroup;
+			children = (
+				E0B0AB94180EAE1F002BF44E /* UIViewController+CWPopup.h */,
+				E0B0AB95180EAE1F002BF44E /* UIViewController+CWPopup.m */,
+			);
+			name = CWPopup;
+			path = "iTaiwan Aborigines/CWPopup";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06471C1180CDA8100F8C04C /* iTaiwan Aborigines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06471F4180CDA8200F8C04C /* Build configuration list for PBXNativeTarget "iTaiwan Aborigines" */;
+			buildPhases = (
+				E06471BE180CDA8100F8C04C /* Sources */,
+				E06471BF180CDA8100F8C04C /* Frameworks */,
+				E06471C0180CDA8100F8C04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTaiwan Aborigines";
+			productName = "iTaiwan Aborigines";
+			productReference = E06471C2180CDA8100F8C04C /* iTaiwan Aborigines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E06471E2180CDA8200F8C04C /* iTaiwan AboriginesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06471F7180CDA8200F8C04C /* Build configuration list for PBXNativeTarget "iTaiwan AboriginesTests" */;
+			buildPhases = (
+				E06471DF180CDA8200F8C04C /* Sources */,
+				E06471E0180CDA8200F8C04C /* Frameworks */,
+				E06471E1180CDA8200F8C04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06471E9180CDA8200F8C04C /* PBXTargetDependency */,
+			);
+			name = "iTaiwan AboriginesTests";
+			productName = "iTaiwan AboriginesTests";
+			productReference = E06471E3180CDA8200F8C04C /* iTaiwan AboriginesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06471BA180CDA8100F8C04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "iTaiwan Aborigines";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Thomas Hsu";
+				TargetAttributes = {
+					E06471E2180CDA8200F8C04C = {
+						TestTargetID = E06471C1180CDA8100F8C04C;
+					};
+				};
+			};
+			buildConfigurationList = E06471BD180CDA8100F8C04C /* Build configuration list for PBXProject "iTaiwan Aborigines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06471B9180CDA8100F8C04C;
+			productRefGroup = E06471C3180CDA8100F8C04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06471C1180CDA8100F8C04C /* iTaiwan Aborigines */,
+				E06471E2180CDA8200F8C04C /* iTaiwan AboriginesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06471C0180CDA8100F8C04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B0AB6F180E8C1A002BF44E /* mapImage.png in Resources */,
+				E06471DE180CDA8200F8C04C /* Images.xcassets in Resources */,
+				E06471D0180CDA8200F8C04C /* InfoPlist.strings in Resources */,
+				E06471D9180CDA8200F8C04C /* Main.storyboard in Resources */,
+				E0571B40180DB375008A08C1 /* 1.png in Resources */,
+				E0571B3F180DB375008A08C1 /* 1.gif in Resources */,
+				E0B0AB71180E8C51002BF44E /* cameraImage.png in Resources */,
+				E06471FE180CEA8900F8C04C /* introViewTest.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06471E1180CDA8200F8C04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06471EF180CDA8200F8C04C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06471BE180CDA8100F8C04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B0AB96180EAE1F002BF44E /* UIViewController+CWPopup.m in Sources */,
+				E0B0AB6B180E864C002BF44E /* nearestAboriginesViewController.m in Sources */,
+				E0B0AB99180EB083002BF44E /* rewardPopupViewController.m in Sources */,
+				E0B0AB65180E8240002BF44E /* wantToEatViewController.m in Sources */,
+				E06471D2180CDA8200F8C04C /* main.m in Sources */,
+				E0123E00180E6F8F001B2652 /* wantToPlayViewController.m in Sources */,
+				E0B0AB68180E84FB002BF44E /* wantToBeHipsterViewController.m in Sources */,
+				E06471DC180CDA8200F8C04C /* iTaiwan_AboriginesViewController.m in Sources */,
+				E06471D6180CDA8200F8C04C /* iTaiwan_AboriginesAppDelegate.m in Sources */,
+				E0647201180D367800F8C04C /* mainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06471DF180CDA8200F8C04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06471F1180CDA8200F8C04C /* iTaiwan_AboriginesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06471E9180CDA8200F8C04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06471C1180CDA8100F8C04C /* iTaiwan Aborigines */;
+			targetProxy = E06471E8180CDA8200F8C04C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E06471CE180CDA8200F8C04C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06471CF180CDA8200F8C04C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E06471D7180CDA8200F8C04C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06471D8180CDA8200F8C04C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E06471ED180CDA8200F8C04C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06471EE180CDA8200F8C04C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06471F2180CDA8200F8C04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E06471F3180CDA8200F8C04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06471F5180CDA8200F8C04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mhci/Desktop/iTaiwan\\ Aborigines",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTaiwan Aborigines/iTaiwan Aborigines-Prefix.pch";
+				INFOPLIST_FILE = "iTaiwan Aborigines/iTaiwan Aborigines-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E06471F6180CDA8200F8C04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mhci/Desktop/iTaiwan\\ Aborigines",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTaiwan Aborigines/iTaiwan Aborigines-Prefix.pch";
+				INFOPLIST_FILE = "iTaiwan Aborigines/iTaiwan Aborigines-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E06471F8180CDA8200F8C04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTaiwan Aborigines.app/iTaiwan Aborigines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTaiwan Aborigines/iTaiwan Aborigines-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iTaiwan AboriginesTests/iTaiwan AboriginesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E06471F9180CDA8200F8C04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTaiwan Aborigines.app/iTaiwan Aborigines";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTaiwan Aborigines/iTaiwan Aborigines-Prefix.pch";
+				INFOPLIST_FILE = "iTaiwan AboriginesTests/iTaiwan AboriginesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06471BD180CDA8100F8C04C /* Build configuration list for PBXProject "iTaiwan Aborigines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06471F2180CDA8200F8C04C /* Debug */,
+				E06471F3180CDA8200F8C04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06471F4180CDA8200F8C04C /* Build configuration list for PBXNativeTarget "iTaiwan Aborigines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06471F5180CDA8200F8C04C /* Debug */,
+				E06471F6180CDA8200F8C04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06471F7180CDA8200F8C04C /* Build configuration list for PBXNativeTarget "iTaiwan AboriginesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06471F8180CDA8200F8C04C /* Debug */,
+				E06471F9180CDA8200F8C04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E06471BA180CDA8100F8C04C /* Project object */;
+}
